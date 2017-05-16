@@ -20,7 +20,7 @@ namespace RandomNumbers
         }
         public static void forLoopMethod()
         {
-            Console.Write("you random numbers are: ");
+            Console.Write("your random numbers are: ");
             Console.WriteLine();
             for (int i = 0; i < 5; i++)
             { 
