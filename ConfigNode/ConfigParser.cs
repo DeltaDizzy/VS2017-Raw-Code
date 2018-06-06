@@ -9,8 +9,6 @@ namespace ConfigParser
         void Parse(ConfigNode node)
         {
             node.GetNode("HYPERDRIVE");
-        }
-        
-        
+        }  
     }
 }
