@@ -4,10 +4,13 @@ namespace ConfigParser
 {
     class Parser : MonoBehaviour
     {
-        public ConfigNode Parse(ConfigNode node)
+        ConfigNode node = new ConfigNode();
+        //Get node from object
+        void Parse(ConfigNode node)
         {
-            ConfigNode parseNode = node;
-            return parseNode;
+            node.GetNode("HYPERDRIVE");
         }
+        
+        
     }
 }
